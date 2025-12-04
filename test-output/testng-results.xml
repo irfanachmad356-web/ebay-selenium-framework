@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-04T10:58:26 ICT" name="Suite" finished-at="2025-12-04T10:58:50 ICT" duration-ms="24406">
+    <groups>
+    </groups>
+    <test started-at="2025-12-04T10:58:26 ICT" name="Test" finished-at="2025-12-04T10:58:50 ICT" duration-ms="24406">
+      <class name="com.achmadirfan.tests.filters.CellPhonesFilterTest">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.achmadirfan.tests.filters.CellPhonesFilterTest@4e0ae11f]" started-at="2025-12-04T10:58:34 ICT" name="startApplication" finished-at="2025-12-04T10:58:37 ICT" duration-ms="2920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="verifyFilterOnCellPhones()[pri:0, instance:com.achmadirfan.tests.filters.CellPhonesFilterTest@4e0ae11f]" started-at="2025-12-04T10:58:37 ICT" name="verifyFilterOnCellPhones" finished-at="2025-12-04T10:58:50 ICT" duration-ms="12748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterOnCellPhones -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.achmadirfan.tests.filters.CellPhonesFilterTest@4e0ae11f]" started-at="2025-12-04T10:58:50 ICT" name="tearDown" finished-at="2025-12-04T10:58:50 ICT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.achmadirfan.tests.filters.CellPhonesFilterTest -->
+      <class name="com.achmadirfan.tests.search.SearchItemTest">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.achmadirfan.tests.search.SearchItemTest@642a7222]" started-at="2025-12-04T10:58:26 ICT" name="startApplication" finished-at="2025-12-04T10:58:29 ICT" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="verifySearchItem()[pri:0, instance:com.achmadirfan.tests.search.SearchItemTest@642a7222]" started-at="2025-12-04T10:58:29 ICT" name="verifySearchItem" finished-at="2025-12-04T10:58:34 ICT" duration-ms="4950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.achmadirfan.tests.search.SearchItemTest@642a7222]" started-at="2025-12-04T10:58:34 ICT" name="tearDown" finished-at="2025-12-04T10:58:34 ICT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.achmadirfan.tests.search.SearchItemTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
