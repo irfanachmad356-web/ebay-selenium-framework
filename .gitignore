@@ -1,0 +1,22 @@
+# Maven output
+target/
+test-output/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Reports (optional)
+reports/*.png
+reports/*.css
+reports/*.js
+reports/*.xml
