@@ -38,7 +38,11 @@ public class BaseTest {
 			+"//src//main//java//com//achmadirfan//framework//config//GlobalData.properties");
 	prop.load(fis);
 	
-	String browserName = prop.getProperty("browser").toLowerCase();	
+	String browserName = System.getProperty("browser") != null
+	        ? System.getProperty("browser")
+	        : prop.getProperty("browser");
+
+	browserName = browserName.toLowerCase();
 	
 	switch (browserName) {
     case "chrome":
