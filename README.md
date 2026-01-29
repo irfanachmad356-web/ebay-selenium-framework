@@ -1,4 +1,4 @@
-# Ebay Automation Framework (Private Repository)
+# Ebay Automation Framework
 
 This repository contains a fully functional **Selenium Test Automation Framework** using:
 - Java 17  
